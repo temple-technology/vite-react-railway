@@ -18,10 +18,27 @@ This is a [Vite + React](https://vitejs.dev/guide/#trying-vite-online) starter t
 - Vite + React
 - [Caddy](https://caddyserver.com/)
 
+## 🛠️ Development Environment Setup
+
+This project uses [Yarn 4+](https://yarnpkg.com/) with `node_modules` for dependency management and ESM for modules.
+
+### For VSCode Users
+- Standard TypeScript and module resolution will work out of the box.
+- No special configuration required.
+
+### For Other Editors
+- Any editor with TypeScript support will work without additional configuration.
+- Run `yarn install` after cloning.
+
+### Running the Project
+- `yarn install`
+- `yarn dev` (for development)
+- `yarn build` and `yarn preview` (for production)
+
 ## 💁‍♀️ How to use
 
-- Install required dependencies with `npm install`
-- Start the server for local development `npm run dev`
+- Install required dependencies with `yarn install`
+- Start the server for local development `yarn dev`
 
 ## ❓ Why use `Caddy` when deploying to Railway?
 
